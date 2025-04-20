@@ -1,12 +1,49 @@
-# React + Vite
+# 🧑‍💼 Employee Management System (EMS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Employee Management System built using **React.js**. This system is designed to streamline employee-task management, featuring separate login portals for both **Admin** and **Employees**. All data is securely stored using the browser’s **Local Storage**, making it lightweight and easy to use without a backend.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+### 🔐 Authentication
+- **User Login**: Employees can log in and view tasks assigned to them.
+- **Admin Login**: Admins can manage employees and assign tasks.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🧑‍💻 Admin Panel
+- Assign tasks to employees.
+- View list of all employees.
+- Manage employee data stored locally.
+  
+### 👨‍🏭 Employee Panel
+- View tasks assigned by Admin.
+- Update task status (if implemented).
+
+### 🗂️ Local Storage Integration
+- Stores user details, tasks, and login sessions using Local Storage.
+- No external database required.
+
+---
+
+## 🛠️ Tech Stack
+
+| Tech        | Usage                  |
+|-------------|------------------------|
+| React.js    | Frontend UI framework  |
+| CSS         | Styling the UI         |
+| LocalStorage| Data Persistence       |
+
+
+
+How to Run Locally
+git clone https://github.com/Shubhamgiri102/EMS-Project.git
+cd EMS-Project
+npm install
+npm start
+http://localhost:3000
+
+
+📬 Contact
+Shubham Giri
+✉️ girishubham451@gmail.com
+🌐 GitHub | LinkedIn
